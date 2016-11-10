@@ -9,7 +9,8 @@ class SitesController < ApplicationController
   def get_sites
     urls = [
       { url: "https://medium.com/@nicolesilverberg/what-can-i-do-right-now-98169b7704b7#.7npca0tsp", author: "Nicole Silverberg", twitter: "nsilverberg" },
-      { url: "http://jezebel.com/a-list-of-pro-women-pro-immigrant-pro-earth-anti-big-1788752078", author: "Joanna Rothkopf", twitter: "joannarothkopf" }
+      { url: "http://jezebel.com/a-list-of-pro-women-pro-immigrant-pro-earth-anti-big-1788752078", author: "Joanna Rothkopf", twitter: "joannarothkopf" },
+      { url: "https://medium.com/@nicolesilverberg/it-s-on-us-too-an-easy-guide-to-contacting-your-elected-representatives-about-gun-control-2e2d8eb20e3f#.d84l91vwt", author: "Nicole Silverberg", twitter: "nsilverberg" }
     ]
     @sites = urls.map { |u| { thumbnail: LinkThumbnailer.generate(u[:url]), author: u[:author], twitter: u[:twitter], url: u[:url] }  }
   end
