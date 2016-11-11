@@ -19,5 +19,12 @@
 
 
 .gallery-tiles
-  display: flexbox
+  display: flex
   flex-wrap: wrap
+
+.gallery-tiles > *
+  display: flex
+  flex-direction: column
+
+.gallery-tiles .thumbnail
+  flex: 1
