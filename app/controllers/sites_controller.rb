@@ -17,6 +17,7 @@ class SitesController < ApplicationController
       { url: "http://www.slate.com/articles/news_and_politics/politics/2016/11/how_liberals_can_channel_their_post_election_anxiety_into_action.html", author: "Slate Staff", twitter: "slate" },
       { url: "http://nymag.com/thecut/2016/11/how-to-donate-to-planned-parenthood-and-other-charities.html", author: "Lisa Ryan", twitter: "lisarya" },
       { url: "http://www.refugerestrooms.org/about", author: "Refuge Restrooms App", twitter: "refugerestrooms" },
+      { url: "http://www.staywoke.org/", author: "Stay Woke", twitter: "nettaaaaaaaa" },
       { url: "http://www.racked.com/2016/11/9/13573936/donate", author: "Racked Staff", twitter: "Racked" }
     ]
     @sites = urls.map { |u| { thumbnail: LinkThumbnailer.generate(u[:url]), author: u[:author], twitter: u[:twitter], url: u[:url] }  }
