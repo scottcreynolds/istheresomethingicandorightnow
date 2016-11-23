@@ -14,6 +14,8 @@ class SitesController < ApplicationController
       { url: "http://maeril.tumblr.com/post/149669302551/hi-everyone-this-is-an-illustrated-guide-i-made", author: "Maeril", twitter: "itsmaeril" },
       { url: "http://www.vox.com/presidential-election/2016/11/10/13586322/trump-brexit-safety-pin", author: "Alex Abad-Santos", twitter: "alex_abads" },
       { url: "https://storify.com/editoremilye/i-worked-for-congress-for-six-years", author: "Emily Ellsworth", twitter: "editoremilye" },
+      { url: "https://medium.com/@CalvinStarnesOG/what-can-i-do-62fc90743100#.xxknrh77j", author: "Calvin Starnes", twitter: "calvinstarnesog" },
+      { url: "http://sacredstonecamp.org/faq/#howtohelp", author: "Sacred Stone Camp", twitter: "sacredstonecamp" },
       { url: "https://medium.com/@nicolesilverberg/it-s-on-us-too-an-easy-guide-to-contacting-your-elected-representatives-about-gun-control-2e2d8eb20e3f#.d84l91vwt", author: "Nicole Silverberg", twitter: "nsilverberg" },
       { url: "http://www.slate.com/articles/news_and_politics/politics/2016/11/how_liberals_can_channel_their_post_election_anxiety_into_action.html", author: "Slate Staff", twitter: "slate" },
       { url: "http://nymag.com/thecut/2016/11/how-to-donate-to-planned-parenthood-and-other-charities.html", author: "Lisa Ryan", twitter: "lisarya" },
